@@ -5,7 +5,7 @@ import java.util.Scanner;
  * @author Clement
  * @date 2023/03/28
  */
-public class demo2 {
+public class guessingGame {
     public static void main(String[] args) {    //简单的猜数实现
         Scanner in = new Scanner(System.in);
         int num = (int)(Math.random()*100 + 1);     //[1,101)   通过一个随机数生成增强有趣性
